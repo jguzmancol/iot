@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo $1
+echo $2
 
 curl \
 	  -H "Content-Type: application/json;charset=UTF-8" \
